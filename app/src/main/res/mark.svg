@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 264.3 263.3" style="enable-background:new 0 0 264.3 263.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#2543D8;stroke-width:10;}
+	.st2{fill:none;stroke:#2F55A4;stroke-width:2;}
+</style>
+<g>
+	<g id="Group_2">
+		<g id="Group_1">
+			<g id="mark">
+				<g transform="matrix(1, 0, 0, 1, 50, 142)">
+					<g id="Ellipse_2-2" transform="translate(9 6)">
+						<circle class="st0" cx="72.9" cy="-16" r="129"/>
+						<circle class="st1" cx="72.9" cy="-16" r="124"/>
+					</g>
+				</g>
+				<g id="_536D7740" transform="translate(80 169)">
+					<circle class="st2" cx="51.9" cy="-37" r="107"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="131.9" cy="132" r="107"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g transform="matrix(1 0 0 1 9.536743e-07 1.907349e-06)" style="clip-path:url(#SVGID_2_);">
+			
+				<image style="overflow:visible;" width="590" height="596" xlink:href="536D7740.png"  transform="matrix(0.3576 0 0 0.3576 15.436 26.7318)">
+			</image>
+		</g>
+	</g>
+</g>
+</svg>

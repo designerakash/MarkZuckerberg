@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.markzuckerberg">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_mark"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_mark"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Facebook_creation_story">
+        </activity>
+        <activity android:name=".Debate_Facebook">
+        </activity>
+        <activity android:name=".offer_rejects">
+        </activity>
+        <activity android:name=".California">
+        </activity>
+        <activity android:name=".Facebook_name_change">
+        </activity>
+        <activity android:name=".drop_out">
+        </activity>
+        <activity android:name=".Work_at_Microsoft">
+        </activity>
+        <activity android:name=".Young_billiain">
+        </activity>
+        <activity android:name=".Reputation">
+        </activity>
+        <activity android:name=".Social_Network">
+        </activity>
+        <activity android:name=".Marriage">
+        </activity>
+        <activity android:name=".Top_Donor">
+        </activity>
+        <activity android:name=".Best_CEO">
+        </activity>
+        <activity android:name=".salary">
+        </activity>
+        <activity android:name=".New_plan">
+        </activity>
+        <activity android:name=".Facebook">
+        </activity>
+        <activity android:name=".FaceMash">
+        </activity>
+        <activity android:name=".Database_hack">
+        </activity>
+        <activity android:name=".Harvard">
+        </activity>
+        <activity android:name=".Rejecting_oftware">
+        </activity>
+        <activity android:name=".Childhood">
+        </activity>
+        <activity
+                android:name=".splash"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>
