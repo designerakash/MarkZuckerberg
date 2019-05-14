@@ -108,6 +108,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, salary::class.java)
             // start your next activity
             startActivity(intent)
+
+
+
+ }//click button16(Reputation)
+        button16.setOnClickListener {
+            val intent = Intent(this, Reputation::class.java)
+            // start your next activity
+            startActivity(intent)
         }
 
 
