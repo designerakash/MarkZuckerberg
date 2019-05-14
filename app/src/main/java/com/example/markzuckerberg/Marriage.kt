@@ -8,5 +8,26 @@ class Marriage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_marriage)
+
+
+
+        //actionbar
+        val actionbar = supportActionBar
+        //set back button
+        actionbar?.run {
+            //set actionbar title
+            actionbar!!.title = "মার্ক জুকারবার্গের বিয়ে"
+            //set back button
+            setDisplayHomeAsUpEnabled(true)
+            setDisplayHomeAsUpEnabled(true)
+        }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+
+
+
     }
 }
