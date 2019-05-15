@@ -12,12 +12,10 @@ class Childhood : AppCompatActivity() {
 
         //actionbar
         val actionbar = supportActionBar
-        //set actionbar title
-        actionbar!!.title = "Childhood"
         //set back button
-        actionbar.run {
+        actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "Childhood"
+            actionbar!!.title = "শৈশব"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)

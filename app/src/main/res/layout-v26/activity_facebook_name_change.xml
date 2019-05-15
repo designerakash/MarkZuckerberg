@@ -6,13 +6,13 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Marriage">
+        tools:context=".Facebook_name_change">
 
 
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/marriage"
+            app:srcCompat="@drawable/chance"
             android:id="@+id/imageView"
             android:layout_gravity="top"
             android:contentDescription="TODO"/>
@@ -25,10 +25,11 @@
         <TextView
                 android:layout_marginRight="15dp"
                 android:layout_marginLeft="15dp"
-                android:justificationMode="inter_word"
-                android:text="@string/marriage"
+                
+                android:text="@string/namechance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
                 android:id="@+id/textView"/>
 
 
@@ -36,6 +37,28 @@
 
 
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

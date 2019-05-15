@@ -111,9 +111,61 @@ class MainActivity : AppCompatActivity() {
 
 
 
- }//click button16(Reputation)
+ }
+
+
+        //click button16(Reputation)
         button16.setOnClickListener {
             val intent = Intent(this, Reputation::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+        //click button6(Facebook)
+        button6.setOnClickListener {
+            val intent = Intent(this, Facebook::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+//click button19(Top_Donor)
+        button19.setOnClickListener {
+            val intent = Intent(this, Top_Donor::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+ //click button17(Social_Network)
+        button17.setOnClickListener {
+            val intent = Intent(this, Social_Network::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+//click button14(Work_at_Microsoft)
+        button14.setOnClickListener {
+            val intent = Intent(this, Work_at_Microsoft::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+//click button12(Facebook_name_change)
+        button12.setOnClickListener {
+            val intent = Intent(this, Facebook_name_change::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+//click button8(Facebook_creation_story)
+        button8.setOnClickListener {
+            val intent = Intent(this,  Facebook_creation_story::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+//click button4(Harvard)
+        button4.setOnClickListener {
+            val intent = Intent(this,  Harvard::class.java)
             // start your next activity
             startActivity(intent)
         }
