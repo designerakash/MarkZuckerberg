@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781648882475",
+    "firebase_url": "https://markzuckerberg-a758e.firebaseio.com",
+    "project_id": "markzuckerberg-a758e",
+    "storage_bucket": "markzuckerberg-a758e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781648882475:android:1af2edd21e87abb9",
+        "android_client_info": {
+          "package_name": "com.example.markzuckerberg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781648882475-i384al6sfa9f1qrvc0v2g6j713mg3tmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb7pUrXPjHZI-r0-tF2y3APsUreuHnTlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781648882475-i384al6sfa9f1qrvc0v2g6j713mg3tmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

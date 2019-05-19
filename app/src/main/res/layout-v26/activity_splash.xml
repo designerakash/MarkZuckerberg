@@ -36,7 +36,7 @@
             android:justificationMode="inter_word"
             android:text="@string/tag"
             android:textColor="@color/white"
-            android:layout_marginTop="330sp"
+            android:layout_marginTop="320sp"
             android:gravity="center"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
