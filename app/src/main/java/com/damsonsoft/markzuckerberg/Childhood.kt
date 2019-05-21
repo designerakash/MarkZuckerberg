@@ -1,13 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Facebook_creation_story : AppCompatActivity() {
+class Childhood : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_facebook_creation_story)
+        setContentView(R.layout.activity_childhood)
 
 
         //actionbar
@@ -15,7 +15,7 @@ class Facebook_creation_story : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "Facebook তৈরির গল্প"
+            actionbar!!.title = "শৈশব"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -25,7 +25,6 @@ class Facebook_creation_story : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
 
 
     }

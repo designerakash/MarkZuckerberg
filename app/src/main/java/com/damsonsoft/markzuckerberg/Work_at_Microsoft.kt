@@ -1,13 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Marriage : AppCompatActivity() {
+class Work_at_Microsoft : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_marriage)
+        setContentView(R.layout.activity_work_at__microsoft)
 
 
 
@@ -16,7 +16,7 @@ class Marriage : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "মার্ক জুকারবার্গের বিয়ে"
+            actionbar!!.title = "মাইক্রোসফটে কাজ"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)

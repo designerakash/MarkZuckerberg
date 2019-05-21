@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "781648882475",
-    "firebase_url": "https://markzuckerberg-a758e.firebaseio.com",
-    "project_id": "markzuckerberg-a758e",
-    "storage_bucket": "markzuckerberg-a758e.appspot.com"
+    "project_number": "335886377167",
+    "firebase_url": "https://markzuckerberg-d1d5a.firebaseio.com",
+    "project_id": "markzuckerberg-d1d5a",
+    "storage_bucket": "markzuckerberg-d1d5a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:781648882475:android:1af2edd21e87abb9",
+        "mobilesdk_app_id": "1:335886377167:android:d68500cc6e870a30",
         "android_client_info": {
-          "package_name": "com.example.markzuckerberg"
+          "package_name": "com.damsonsoft.markzuckerberg"
         }
       },
       "oauth_client": [
         {
-          "client_id": "781648882475-i384al6sfa9f1qrvc0v2g6j713mg3tmg.apps.googleusercontent.com",
+          "client_id": "335886377167-udhino4ltrd0laejloh1omns14vqqu96.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAb7pUrXPjHZI-r0-tF2y3APsUreuHnTlk"
+          "current_key": "AIzaSyB7cayG_c8E9sCY4iaE9YpGSXxeVlzAYSk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "781648882475-i384al6sfa9f1qrvc0v2g6j713mg3tmg.apps.googleusercontent.com",
+              "client_id": "335886377167-udhino4ltrd0laejloh1omns14vqqu96.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

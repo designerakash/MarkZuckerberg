@@ -1,13 +1,14 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class FaceMash : AppCompatActivity() {
+class offer_rejects : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_face_mash)
+        setContentView(R.layout.activity_offer_rejects)
+
 
 
         //actionbar
@@ -15,7 +16,7 @@ class FaceMash : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "FaceMash"
+            actionbar!!.title = "ইয়াহু এর প্রস্তাব প্রত্যাখ্যান"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)

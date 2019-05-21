@@ -1,13 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Work_at_Microsoft : AppCompatActivity() {
+class Reputation : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_work_at__microsoft)
+        setContentView(R.layout.activity_reputation)
 
 
 
@@ -16,7 +16,7 @@ class Work_at_Microsoft : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "মাইক্রোসফটে কাজ"
+            actionbar!!.title = "সম্মাননা"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -26,8 +26,5 @@ class Work_at_Microsoft : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
-
-
     }
 }

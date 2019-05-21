@@ -1,4 +1,4 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.content.Intent
 import android.os.Bundle

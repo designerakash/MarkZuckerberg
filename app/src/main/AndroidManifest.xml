@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.markzuckerberg">
+          package="com.damsonsoft.markzuckerberg">
 
     <application
             android:allowBackup="true"
@@ -9,50 +9,50 @@
             android:roundIcon="@mipmap/ic_mark"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Facebook_creation_story">
+        <activity android:name="com.damsonsoft.markzuckerberg.Facebook_creation_story">
         </activity>
-        <activity android:name=".Debate_Facebook">
+        <activity android:name="com.damsonsoft.markzuckerberg.Debate_Facebook">
         </activity>
-        <activity android:name=".offer_rejects">
+        <activity android:name="com.damsonsoft.markzuckerberg.offer_rejects">
         </activity>
-        <activity android:name=".California">
+        <activity android:name="com.damsonsoft.markzuckerberg.California">
         </activity>
-        <activity android:name=".Facebook_name_change">
+        <activity android:name="com.damsonsoft.markzuckerberg.Facebook_name_change">
         </activity>
-        <activity android:name=".drop_out">
+        <activity android:name="com.damsonsoft.markzuckerberg.drop_out">
         </activity>
-        <activity android:name=".Work_at_Microsoft">
+        <activity android:name="com.damsonsoft.markzuckerberg.Work_at_Microsoft">
         </activity>
-        <activity android:name=".Young_billiain">
+        <activity android:name="com.damsonsoft.markzuckerberg.Young_billiain">
         </activity>
-        <activity android:name=".Reputation">
+        <activity android:name="com.damsonsoft.markzuckerberg.Reputation">
         </activity>
-        <activity android:name=".Social_Network">
+        <activity android:name="com.damsonsoft.markzuckerberg.Social_Network">
         </activity>
-        <activity android:name=".Marriage">
+        <activity android:name="com.damsonsoft.markzuckerberg.Marriage">
         </activity>
-        <activity android:name=".Top_Donor">
+        <activity android:name="com.damsonsoft.markzuckerberg.Top_Donor">
         </activity>
-        <activity android:name=".Best_CEO">
+        <activity android:name="com.damsonsoft.markzuckerberg.Best_CEO">
         </activity>
-        <activity android:name=".salary">
+        <activity android:name="com.damsonsoft.markzuckerberg.salary">
         </activity>
-        <activity android:name=".New_plan">
+        <activity android:name="com.damsonsoft.markzuckerberg.New_plan">
         </activity>
-        <activity android:name=".Facebook">
+        <activity android:name="com.damsonsoft.markzuckerberg.Facebook">
         </activity>
-        <activity android:name=".FaceMash">
+        <activity android:name="com.damsonsoft.markzuckerberg.FaceMash">
         </activity>
-        <activity android:name=".Database_hack">
+        <activity android:name="com.damsonsoft.markzuckerberg.Database_hack">
         </activity>
-        <activity android:name=".Harvard">
+        <activity android:name="com.damsonsoft.markzuckerberg.Harvard">
         </activity>
-        <activity android:name=".Rejecting_oftware">
+        <activity android:name="com.damsonsoft.markzuckerberg.Rejecting_oftware">
         </activity>
-        <activity android:name=".Childhood">
+        <activity android:name="com.damsonsoft.markzuckerberg.Childhood">
         </activity>
         <activity
-                android:name=".splash"
+                android:name="com.damsonsoft.markzuckerberg.splash"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -60,7 +60,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name="com.damsonsoft.markzuckerberg.MainActivity"/>
     </application>
 
 </manifest>

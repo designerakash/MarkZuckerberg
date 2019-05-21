@@ -1,13 +1,14 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class New_plan : AppCompatActivity() {
+class drop_out : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_new_plan)
+        setContentView(R.layout.activity_drop_out)
+
 
 
 
@@ -16,7 +17,7 @@ class New_plan : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "নতুন পরিকল্পনা"
+            actionbar!!.title = "Drop_out"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -26,6 +27,7 @@ class New_plan : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
     }
 }
+
+

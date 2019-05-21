@@ -1,13 +1,14 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class California : AppCompatActivity() {
+class Database_hack : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_california)
+        setContentView(R.layout.activity_database_hack)
+
 
 
 
@@ -17,7 +18,7 @@ class California : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "হার্ভার্ড ছেড়ে ক্যালিফোর্নিয়ায়"
+            actionbar!!.title = "হার্ভার্ড কলেজের ডাটাবেজ হ্যাক"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -30,6 +31,7 @@ class California : AppCompatActivity() {
 
 
 
+
+
     }
 }
-

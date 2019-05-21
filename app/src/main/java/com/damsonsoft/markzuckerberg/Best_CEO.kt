@@ -1,22 +1,23 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class offer_rejects : AppCompatActivity() {
+class Best_CEO : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_offer_rejects)
-
+        setContentView(R.layout.activity_best__ceo)
 
 
         //actionbar
         val actionbar = supportActionBar
+        //set actionbar title
+        actionbar!!.title = "Childhood"
         //set back button
-        actionbar?.run {
+        actionbar.run {
             //set actionbar title
-            actionbar!!.title = "ইয়াহু এর প্রস্তাব প্রত্যাখ্যান"
+            actionbar!!.title = "পৃথিবীর সেরা সিইও"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -26,6 +27,7 @@ class offer_rejects : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+
 
     }
 }

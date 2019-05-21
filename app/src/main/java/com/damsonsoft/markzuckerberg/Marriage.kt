@@ -1,13 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Top_Donor : AppCompatActivity() {
+class Marriage : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_top__donor)
+        setContentView(R.layout.activity_marriage)
 
 
 
@@ -16,7 +16,7 @@ class Top_Donor : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "যুক্তরাষ্ট্রে দ্বিতীয় শীর্ষ দাতা"
+            actionbar!!.title = "মার্ক জুকারবার্গের বিয়ে"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -26,6 +26,8 @@ class Top_Donor : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+
+
 
     }
 }

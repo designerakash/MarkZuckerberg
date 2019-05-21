@@ -1,13 +1,14 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Social_Network : AppCompatActivity() {
+class California : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_social__network)
+        setContentView(R.layout.activity_california)
+
 
 
 
@@ -16,7 +17,7 @@ class Social_Network : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "দি সোশ্যাল নেটওয়ার্ক"
+            actionbar!!.title = "হার্ভার্ড ছেড়ে ক্যালিফোর্নিয়ায়"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -28,5 +29,7 @@ class Social_Network : AppCompatActivity() {
         return true
 
 
+
     }
 }
+

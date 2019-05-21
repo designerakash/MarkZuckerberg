@@ -1,16 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-
-class Harvard : AppCompatActivity() {
-
+class Facebook : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_harvard)
-
+        setContentView(R.layout.activity_facebook)
 
 
         //actionbar
@@ -18,7 +15,7 @@ class Harvard : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "হার্ভার্ডে জুকারবার্গ"
+            actionbar!!.title = "দি ফেসবুক ডট কম"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -28,7 +25,6 @@ class Harvard : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
 
 
 

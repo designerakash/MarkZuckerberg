@@ -1,16 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Debate_Facebook : AppCompatActivity() {
+class Rejecting_oftware : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_debate__facebook)
-
-
-
+        setContentView(R.layout.activity_rejecting_oftware)
 
 
         //actionbar
@@ -18,7 +15,7 @@ class Debate_Facebook : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "ফেসবুক নিয়ে বিতর্কে"
+            actionbar!!.title = "সফটওয়্যার বিক্রির প্রস্তাব প্রত্যাখ্যান"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -28,6 +25,7 @@ class Debate_Facebook : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+
 
 
     }

@@ -1,4 +1,4 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import org.junit.Test
 

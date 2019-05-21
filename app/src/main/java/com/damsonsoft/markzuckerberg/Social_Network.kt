@@ -1,13 +1,14 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Facebook : AppCompatActivity() {
+class Social_Network : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_facebook)
+        setContentView(R.layout.activity_social__network)
+
 
 
         //actionbar
@@ -15,7 +16,7 @@ class Facebook : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "দি ফেসবুক ডট কম"
+            actionbar!!.title = "দি সোশ্যাল নেটওয়ার্ক"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -25,7 +26,6 @@ class Facebook : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
 
 
     }

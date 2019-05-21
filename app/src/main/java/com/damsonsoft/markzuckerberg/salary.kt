@@ -1,13 +1,13 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Rejecting_oftware : AppCompatActivity() {
+class salary : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_rejecting_oftware)
+        setContentView(R.layout.activity_salary)
 
 
         //actionbar
@@ -15,7 +15,7 @@ class Rejecting_oftware : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "সফটওয়্যার বিক্রির প্রস্তাব প্রত্যাখ্যান"
+            actionbar!!.title = "বাৎসরিক “১ ডলার” বেতন"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -25,8 +25,5 @@ class Rejecting_oftware : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
-
-
     }
 }

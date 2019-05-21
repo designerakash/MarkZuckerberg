@@ -1,13 +1,16 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class salary : AppCompatActivity() {
+
+class Harvard : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_salary)
+        setContentView(R.layout.activity_harvard)
+
 
 
         //actionbar
@@ -15,7 +18,7 @@ class salary : AppCompatActivity() {
         //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "বাৎসরিক “১ ডলার” বেতন"
+            actionbar!!.title = "হার্ভার্ডে জুকারবার্গ"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -25,5 +28,9 @@ class salary : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+
+
+
+
     }
 }

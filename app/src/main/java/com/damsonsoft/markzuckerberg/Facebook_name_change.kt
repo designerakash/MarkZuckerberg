@@ -1,21 +1,21 @@
-package com.example.markzuckerberg
+package com.damsonsoft.markzuckerberg
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class Young_billiain : AppCompatActivity() {
+class Facebook_name_change : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_young_billiain)
+        setContentView(R.layout.activity_facebook_name_change)
 
 
         //actionbar
         val actionbar = supportActionBar
-        //set actionbar title
+        //set back button
         actionbar?.run {
             //set actionbar title
-            actionbar!!.title = "তরুণ বিলিয়নিয়ার"
+            actionbar!!.title = "ফেসবুকের নাম পরিবর্তন"
             //set back button
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
@@ -25,8 +25,6 @@ class Young_billiain : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
-
-
 
 
     }
